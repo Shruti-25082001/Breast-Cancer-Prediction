@@ -1,0 +1,52 @@
+Project: Breast Cancer Prediction using Machine Learning
+
+There are two types of breast tumours found in humans: Benign (non-cancerous) tumors and Malignant (cancerous) tumors. Through different Machine Learning algorithms, we try to classify the tumor whether it is cancerous or not and find the most accurate one.
+
+We have various algorithm to measure performance of the model with its Accuracy Score and we have used below algorithms for predictions:
+1) Logistic Regression
+2) Decision Tree Classifier
+3) K- Nearest Neighbor Classifier
+4) Naive Bayes
+
+Python libraries Used:
+1) Numpy
+2) Pandas
+3) Matplotlib.pyplot
+4) Seaborn
+
+
+STEPS IMPLEMENTED IN THE PROJECT :-
+
+1) Data preprocessing and cleaning
+2) Seperate X and Y variables
+3) Spliting the data set into Training & Testing data
+4)Creating Knn Model Using KNeighborsClassifier,Decision tree classifier, Logistic Regression and Naive Bayes
+5) Figured confusion matrix for all above mentioned algorithms
+6) Perfomance Evaluation : Accuracy Score, Classification Report
+
+
+Outcome: 
+Accuracy of all algorithms are below-
+
+K Nearest Neighbor Training Accuracy: 0.9765258215962441
+Gaussian Naive Bayes Training Accuracy: 0.9507042253521126
+Decision Tree Classifier Training Accuracy: 1.0
+Logistic Regression Training Accuracy: 0.9906103286384976
+
+Compairing Confusion Matrix-
+
+[[88  2]
+ [ 6 47]]
+K Nearest Neighbor Testing Accuracy = "0.9440559440559441"
+
+[[85  5]
+ [ 6 47]]
+Gaussian Naive Bayes Testing Accuracy = "0.9230769230769231"
+
+[[79 11]
+ [ 3 50]]
+Decision Tree Classifier Testing Accuracy = "0.9020979020979021"
+
+[[86  4]
+ [ 4 49]]
+Logistic Regression Testing Accuracy = "0.9440559440559441"
